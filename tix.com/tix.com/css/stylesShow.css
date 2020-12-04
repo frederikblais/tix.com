@@ -1,0 +1,59 @@
+/* ALL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Body */
+body{
+    background: white;
+  }
+  
+  /* H1 */
+  h1{
+    color: white;
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100vh;
+  }
+  
+  /* NAV */
+  span{
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  
+  span.fade{
+    opacity: 1;
+  }
+  
+  .nav-links{
+    text-align: center;
+  }
+  
+  a:link, a:visited{
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover{
+    color: darkgrey;
+  }
+
+  .pagination {text-align: center;}
+
+  h2{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .image-cell{
+    width: 250px;
+  }
+
+  .active-th {
+    cursor: pointer;
+  }
